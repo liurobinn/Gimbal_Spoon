@@ -67,12 +67,12 @@ $$Magnitude = \sqrt{pitch^2 + yaw^2}$$
 
 ---
 
-## 📂 Project Structure
-* `/TinyS3_Controller`: Firmware for the main gimbal control and BLE server.
-* `/ESP32C6_HUD`: Firmware for the remote display client and telemetry graph.
+## Project Structure
+* `/S3_Final`: Firmware for the main gimbal control and BLE server.
+* `/C6_Final`: Firmware for the remote display client and telemetry graph.
 * `/CAD`: Design files for the gimbal frame and spoon attachment.
 
-## 🔧 Installation & Usage
+## Installation & Usage
 1.  **TinyS3:** Flash the `/Controller` code. 
     * Required Libraries: `Adafruit_BNO08x`, `ESP32Servo`, `BLEDevice`.
 2.  **ESP32-C6:** Flash the `/HUD` code. 
@@ -85,5 +85,7 @@ $$Magnitude = \sqrt{pitch^2 + yaw^2}$$
 ---
 
 **Developed at the Georgia Institute of Technology**
+
 *Robin Liu: School of Electrical Engineering & School of Aerospace Engineering*
-*MJ Wallce: School of Electrical Engineering
+
+*MJ Wallce: School of Electrical Engineering*
