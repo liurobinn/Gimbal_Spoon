@@ -43,11 +43,6 @@ The project employs a **Distributed BLE Client-Server Architecture** to decouple
 
 ---
 
-## Project Structure
-* `/TinyS3_Controller`: Firmware for the main gimbal control and BLE server.
-* `/ESP32C6_HUD`: Firmware for the remote display client and telemetry graph.
-* `/CAD`: Design files for the gimbal frame and spoon attachment.
-
 ## Installation & Usage
 1.  **TinyS3:** Flash using the Arduino IDE with `ESP32-S3` board support. Required libraries: `Adafruit_BNO08x`, `ESP32Servo`, `BLEDevice`.
 2.  **ESP32-C6:** Flash using the Arduino IDE with `ESP32-C6` board support. Required library: `Goldelox_Serial_4DLib`.
